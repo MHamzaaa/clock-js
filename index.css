@@ -59,11 +59,10 @@
 .digitalClockContainer{
   font-family: 'Orbitron', sans-serif;
   position: relative;
-  top: 10rem;
   color: black;
   font-size: 56px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 180px;
   padding-bottom: 40px;
 }
 

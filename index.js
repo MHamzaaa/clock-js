@@ -6,7 +6,6 @@ const digiHour = document.querySelector('.currentHourShow');
 const digiMin = document.querySelector('.currentMinShow');
 const digisSec = document.querySelector('.currentSecShow');
 
-const showDate = document.querySelector('.showDate');
 
 
 function rotate() {
@@ -33,10 +32,6 @@ function rotate() {
 setInterval(rotate,1000);
 
 
-// digiHour.innerHTML = `${hourShowDigi + "<h1>Hours</h1>"}`
-// digiMin.innerHTML = `${minShowDigi + "<h1>Minutes</h1>" }`
-// digisSec.innerHTML = `${secShowDigi + "<h1>Seconds</h1>" }`
-
 
 
 let clock = () => {
@@ -51,6 +46,9 @@ let clock = () => {
 };
 
 clock();
+
+
+
 
 
 
